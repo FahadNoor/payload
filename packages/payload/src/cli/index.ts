@@ -12,7 +12,6 @@ import { parsePayloadComponent } from './commands/generateImportMap/utilities/pa
 import { loadEnv } from './loadEnv.js'
 
 configureZod(en())
-
 export const createProgram = async (args: CLIArgs): Promise<Command> => {
   const program = new Command()
     .name('payload')
